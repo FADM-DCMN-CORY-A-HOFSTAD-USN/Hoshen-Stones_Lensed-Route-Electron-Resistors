@@ -1,0 +1,236 @@
+{
+  "project": "Hoshen-Stones_Lensed-Route-Electron-Resistors",
+  "version": "1.2.0",
+  "description": "Complete 12-bit multi-state crystalline netlist mapping physical weight, volume, and material properties to resonant logic parameters.",
+  "units": {
+    "dimensions": "mm",
+    "mass": "grams",
+    "density": "g/cm³",
+    "capacitance": "pF",
+    "impedance": "ohms"
+  },
+  "matrix_layout": {
+    "rows": 4,
+    "columns": 3,
+    "total_nodes": 12,
+    "substrate": "Gold-woven flexible textile crossbar with 90-degree shielding flange"
+  },
+  "nodes": [
+    {
+      "designator": "R1_C1",
+      "hebrew_name": "Odem",
+      "mineral_type": "Carnelian",
+      "row": 1,
+      "column": 1,
+      "physical_properties": {
+        "mass": 32.5,
+        "density": 2.61,
+        "thickness": 6.0,
+        "dielectric_constant": 6.2
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 19.34,
+        "base_frequency_mhz": 412.35,
+        "logic_function": "Input_Buffer_Low_Pass_Filter"
+      }
+    },
+    {
+      "designator": "R1_C2",
+      "hebrew_name": "Pitdah",
+      "mineral_type": "Peridot",
+      "row": 1,
+      "column": 2,
+      "physical_properties": {
+        "mass": 38.2,
+        "density": 3.34,
+        "thickness": 5.5,
+        "dielectric_constant": 7.1
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 22.31,
+        "base_frequency_mhz": 357.82,
+        "logic_function": "Transient_Oscillation_Stabilizer"
+      }
+    },
+    {
+      "designator": "R1_C3",
+      "hebrew_name": "Bareqet",
+      "mineral_type": "Emerald",
+      "row": 1,
+      "column": 3,
+      "physical_properties": {
+        "mass": 28.0,
+        "density": 2.76,
+        "thickness": 5.0,
+        "dielectric_constant": 5.8
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 17.81,
+        "base_frequency_mhz": 448.11,
+        "logic_function": "Narrow_Bandpass_Filter"
+      }
+    },
+    {
+      "designator": "R2_C1",
+      "hebrew_name": "Nofekh",
+      "mineral_type": "Turquoise",
+      "row": 2,
+      "column": 1,
+      "physical_properties": {
+        "mass": 26.4,
+        "density": 2.68,
+        "thickness": 6.5,
+        "dielectric_constant": 4.8
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 11.01,
+        "base_frequency_mhz": 724.33,
+        "logic_function": "Phase_Angle_Elongation_Delay"
+      }
+    },
+    {
+      "designator": "R2_C2",
+      "hebrew_name": "Sappir",
+      "mineral_type": "Lapis Lazuli",
+      "row": 2,
+      "column": 2,
+      "physical_properties": {
+        "mass": 42.0,
+        "density": 2.80,
+        "thickness": 7.0,
+        "dielectric_constant": 5.5
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 17.89,
+        "base_frequency_mhz": 446.12,
+        "logic_function": "Frequency_State_Storage"
+      }
+    },
+    {
+      "designator": "R2_C3",
+      "hebrew_name": "Yahalom",
+      "mineral_type": "Quartz / Diamond",
+      "row": 2,
+      "column": 3,
+      "physical_properties": {
+        "mass": 45.0,
+        "density": 2.65,
+        "thickness": 5.0,
+        "dielectric_constant": 4.5
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 22.86,
+        "base_frequency_mhz": 349.18,
+        "logic_function": "Master_Clock_Oscillator"
+      }
+    },
+    {
+      "designator": "R3_C1",
+      "hebrew_name": "Leshem",
+      "mineral_type": "Zircon / Jacinth",
+      "row": 3,
+      "column": 1,
+      "physical_properties": {
+        "mass": 52.1,
+        "density": 4.68,
+        "thickness": 5.5,
+        "dielectric_constant": 12.0
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 36.85,
+        "base_frequency_mhz": 216.54,
+        "logic_function": "Voltage_Step_Up_Transformer"
+      }
+    },
+    {
+      "designator": "R3_C2",
+      "hebrew_name": "Shevo",
+      "mineral_type": "Agate",
+      "row": 3,
+      "column": 2,
+      "physical_properties": {
+        "mass": 31.8,
+        "density": 2.60,
+        "thickness": 6.0,
+        "dielectric_constant": 6.8
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 20.97,
+        "base_frequency_mhz": 380.29,
+        "logic_function": "Harmonic_Sawtooth_Smoothing_Filter"
+      }
+    },
+    {
+      "designator": "R3_C3",
+      "hebrew_name": "Achlamah",
+      "mineral_type": "Amethyst",
+      "row": 3,
+      "column": 3,
+      "physical_properties": {
+        "mass": 34.0,
+        "density": 2.65,
+        "thickness": 5.8,
+        "dielectric_constant": 5.2
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 17.39,
+        "base_frequency_mhz": 458.94,
+        "logic_function": "Current_Focus_Sharpener"
+      }
+    },
+    {
+      "designator": "R4_C1",
+      "hebrew_name": "Tarshish",
+      "mineral_type": "Beryl",
+      "row": 4,
+      "column": 1,
+      "physical_properties": {
+        "mass": 29.5,
+        "density": 2.72,
+        "thickness": 6.2,
+        "dielectric_constant": 6.0
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 15.93,
+        "base_frequency_mhz": 501.07,
+        "logic_function": "Electro_Optical_Waveguide_Driver"
+      }
+    },
+    {
+      "designator": "R4_C2",
+      "hebrew_name": "Shoham",
+      "mineral_type": "Onyx",
+      "row": 4,
+      "column": 2,
+      "physical_properties": {
+        "mass": 36.1,
+        "density": 2.65,
+        "thickness": 6.0,
+        "dielectric_constant": 6.5
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 22.34,
+        "base_frequency_mhz": 357.34,
+        "logic_function": "Reverse_Current_Feedback_Isolator"
+      }
+    },
+    {
+      "designator": "R4_C3",
+      "hebrew_name": "Yashfeh",
+      "mineral_type": "Jasper",
+      "row": 4,
+      "column": 3,
+      "physical_properties": {
+        "mass": 39.8,
+        "density": 2.70,
+        "thickness": 6.5,
+        "dielectric_constant": 7.5
+      },
+      "circuit_parameters": {
+        "calculated_capacitance_pf": 25.75,
+        "base_frequency_mhz": 310.02,
+        "logic_function": "Global_Ground_Thermal_Dissipator"
+      }
+    }
+  ]
+}
